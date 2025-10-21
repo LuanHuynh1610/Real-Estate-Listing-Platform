@@ -1,13 +1,19 @@
-lenh kich hoat env
-.\env\Scripts\activate.bat
+    lenh kich hoat env
+-.\env\Scripts\activate.bat
 
+    lenh chay file cc.py
+-python run.py
 
+    lenh tao file requirements:
+-pip freeze > requirements.txt
 
 💡 Khi sang máy khác (hoặc clone từ GitHub)
-Chỉ cần: '.\env\Scripts\activate.bat' (chạy bằng cmd) rồi 'pip install -r requirements.txt'
+-Chỉ cần: '.\env\Scripts\activate.bat' (chạy bằng cmd) rồi 'pip install -r requirements.txt'
 
-
-
+3 lenh khởi tạo database:
+- 1: 'flask db init'
+- 2: 'flask db migrate'
+- 3: 'flask db upgrade'
 
 
 
